@@ -1,0 +1,11 @@
+Assessment Task: Secure Message Transmission
+
+You are tasked with developing a secure messaging application that ensures confidentiality and integrity of messages exchanged between users. The application should use a Key Encapsulation Mechanism (KEM) with symmetric key encryption for secure message transmission.
+
+Requirements:
+
+Implement a Java program that simulates a messaging system between two users. Each user should have a unique identifier (e.g., username).
+Use a Key Encapsulation Mechanism (KEM) to securely exchange a symmetric key between the sender and the receiver for encrypting and decrypting messages.
+The sender should encrypt the message using the shared symmetric key before transmitting it to the receiver.
+The receiver should decrypt the received message using the shared symmetric key.
+Ensure that the application handles exceptions appropriately, including encryption/decryption failures and invalid user interactions.
